@@ -1,0 +1,88 @@
+{
+  "id": "pf2e-nacs-homebrew",
+  "title": "PF2e Nac's Homebrew",
+  "description": "<p>Compendia containing homebrew made by nactris</p>",
+  "version": "1.0",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "NH-FFIS",
+      "label": "Feats, Features, Items and Spells",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "path": "packs/feats-features-items-and-spells",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "NH-Macros",
+      "label": "Macros",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "path": "packs/nh-macros",
+      "type": "Macro",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Nac's Homebrew",
+      "sorting": "m",
+      "packs": [
+        "NH-FFIS",
+        "NH-Macros"
+      ],
+      "color": null,
+      "folders": []
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "caption": "Pathfinder 2e Nac's Homebrew",
+      "thumbnail": "modules/nacs-homebrew/art/preview.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "manifest": "https://github.com/nactris/pf2e-nacs-homebrew",
+  "download": "https://github.com/nactris/pf2e-nacs-homebrew/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "7.2"
+        }
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Nactris",
+      "discord": "nactris",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/nactris/pf2e-nacs-homebrew",
+  "flags": {}
+}
